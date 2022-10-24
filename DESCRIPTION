@@ -1,0 +1,21 @@
+Package: Ambr
+Title: The Package to Import Data from the Sartorius Ambr Bioreactor
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nicola", "Nuti", , "nicola.nuti@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8751-5773"))
+Description: The package imports online data from the sartorius bioreactor into a list of dataframes, each containing bioreactor data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    data.table,
+    janitor,
+    dplyr,
+    lubridate,
+    purrr,
+    stringr,
+    readr,
+    rlang,
+    tidyr
